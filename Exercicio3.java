@@ -17,7 +17,7 @@ public class Exercicio3 {
 
 	        if(idade <= 21) {
 	        	pesmen21++;
-	        }else {
+	        }else if (idade > 50) {
 	        	pesmai50++;
 	        }
 	        System.out.println("\nDigite uma idade: ");
@@ -29,5 +29,4 @@ public class Exercicio3 {
 		System.out.println("\nTotal de pessoas maiores de 50 anos: "+pesmai50);
 
 	}
-
 }

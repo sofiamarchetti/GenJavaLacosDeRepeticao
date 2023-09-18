@@ -21,7 +21,7 @@ public class Exercicio2 {
                 numerosImpares++;
             }
         }
-        
+
         System.out.println("Quantidade de números pares: " + numerosPares);
         System.out.println("Quantidade de números ímpares: " + numerosImpares);
     }

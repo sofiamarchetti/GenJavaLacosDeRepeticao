@@ -13,7 +13,7 @@ public class Exercicio1 {
 		System.out.println("Digite o primeiro número do intervalo: ");
 		num1 = leia.nextInt();
 		System.out.println("Digite o último número do intervalo: ");
-		num1 = leia.nextInt();
+		num2 = leia.nextInt();
 		
 		if (num1>num2) {
 			System.out.println("Intervalo inválido!");	
